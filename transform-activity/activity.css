@@ -1,3 +1,15 @@
-main {
+main div{
+transform: translate(10px, 20px)rotate(5deg);
+width: 30%;
+height: 30%;
+color: black;
+scale: 1.25px;
+}
 
+main {
+    transform: rotate(-20deg);
+}
+
+.info{
+    transform: rotate(20) skew(0deg, 10deg);
 }
